@@ -1,0 +1,302 @@
+@font-face {
+    font-family: 'Adobe Garamond Pro';
+    src: url('../font/AGaramondPro-BoldItalic.woff2') format('woff2'),
+        url('../font/AGaramondPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Garamond Pro';
+    src: url('../font/AGaramondPro-Bold.woff2') format('woff2'),
+        url('../font/AGaramondPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Garamond Pro';
+    src: url('../font/AGaramondPro-Italic.woff2') format('woff2'),
+        url('../font/AGaramondPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Garamond Pro';
+    src: url('../font/AGaramondPro-Regular.woff2') format('woff2'),
+        url('../font/AGaramondPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background,
+.filtering {
+    width: 100%;
+    height: 657px;
+}
+
+.background {
+    background-image: url('../img/home\ page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filtering {
+    background-color: rgba(20, 39, 74, 0.5);
+}
+
+.container {
+    margin-left: 211px;
+    margin-right: 211.21px;
+    color: white;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Adobe Garamond Pro';
+    color: rgba(20, 39, 74, 1);
+    display: inline-block;
+    width: 116px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(224, 185, 115, 1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.bottom-text {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row;
+}
+
+ul {
+    padding-top: 15px;
+}
+
+li {
+    display: inline-block;
+}
+
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .5s ease-out;
+    font-weight: 400;
+}
+
+#active {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.navbar ul li a:hover {
+    color: rgba(224, 185, 115, 1);
+    font-weight: 700;
+}
+
+.text span {
+    display: block;
+    line-height: 1;
+}
+
+.text {
+    margin-top: 120px;
+}
+
+.button {
+    background-color: rgba(224, 185, 115, 1);
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 15px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+    position: relative;
+}
+
+.button:hover {
+    background-color: rgb(172, 132, 59);
+}
+
+.text-center {
+    text-align: center;
+}
+
+#scroll {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 55px;
+    line-height: 1;
+}
+
+/* Feature */
+#feature .text-center {
+    font-weight: 400;
+    color: rgba(20, 39, 74, 1);
+    margin: 40px 0;
+}
+
+.componen-left {
+    font-family: 'Adobe Garamond Pro';
+    width: 100%;
+    flex-basis: 43%;
+    color: rgba(20, 39, 74, 1);
+    padding: 25px 10px 30px 15px;
+}
+
+.componen-left h1 {
+    font-size: 30px;
+}
+
+.componen-left p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.componen-right {
+    width: 100%;
+    flex-basis: 57%;
+    padding-left: 60px;
+}
+
+footer {
+    display: block;
+    background-image: url('../img/footer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 20px 20px 90px;
+    color: white;
+    font-size: 14px;
+}
+
+.bottom {
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+}
+
+.items1 {
+    flex-basis: 25%;
+}
+
+.items1 p {
+    font-size: 13px;
+}
+
+.items2 {
+    flex-basis: 25%;
+}
+
+.items2 ul li {
+    display: block;
+    margin-bottom: 14px;
+}
+
+.items2 ul li a,
+.items3 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.items3 {
+    flex-basis: 25%;
+}
+
+.items3 ul li {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.items3 ul li a img {
+    margin-right: 15px;
+    margin-bottom: -5px;
+}
+
+.items4 {
+    flex-basis: 25%;
+}
+
+.items4 form input[type="email"] {
+    border: 2px solid rgba(224, 185, 115, 1);
+    background-color: #14274A;
+    padding: 10px 10px;
+    width: 200px;
+    margin: 0;
+    border-radius: 2px;
+}
+
+::placeholder {
+    font-family: 'Montserrat',
+        sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.items4 form input[type="submit"] {
+    border: 2px solid rgba(224, 185, 115, 1);
+    background-color: rgba(224, 185, 115, 1);
+    padding: 10px 10px;
+    margin: 0 0 0 -5px;
+    border-radius: 2px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+
+.items4 form input[type="submit"]:hover {
+    background-color: rgb(190, 177, 152);
+}
+
+.watermark {
+    background-color: #14274A;
+    width: 100%;
+    margin-top: 0px;    
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 14px;
+}
+
+.watermark a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.watermark a:hover {
+    color: red;
+}
